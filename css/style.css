@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 1px solid white;
+    background: black;
+}
+
+.jossy {
+    color: blue;
+    text-align: center;
+}
+
+#controls {
+    margin: 10px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#score, #high-score {
+    color: white;
+    font-size: 20px;
+}
